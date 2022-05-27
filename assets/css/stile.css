@@ -1,0 +1,117 @@
+/* ho fatto il possibile ma non mi sono chiari tutti i concetti ancora*/
+html{font-size:62.5%}
+body{
+         overscroll-behavior-x: none;
+      
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65rem;
+    padding: 1.6rem;
+    text-transform: uppercase;
+    background-position: center center;
+    
+}   
+*{box-sizing: border-box;}
+hr{
+    display: none;
+}
+header{
+    background-color:black ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border-bottom: 4px solid;
+    margin-bottom: 1.5rem;
+    padding: 1.5em;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    box-shadow: 0 3px 5px;
+}
+
+    
+  
+header div img{
+    margin-right: 20px;
+    text-align: center;
+    padding-left: 20px;
+}
+/*Main*/    
+main{
+    text-align: center;
+    font-size: 1em;
+    background-color: white;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+article div {
+    background-image: url('../images/banner.jpg');
+    background-position: center;
+    text-align: center;
+    text-transform: uppercase;
+    
+    margin-bottom: 1.5em;
+    padding:2em 1.5em
+}  
+section figcaption img{
+    border-top-left-radius: 50% 50%;
+border-top-right-radius: 50% 50%;
+border-bottom-right-radius: 50% 50%;
+border-bottom-left-radius: 50% 50%;
+}
+
+ h2{
+    color: rgb(88, 88, 194);
+    font-weight: bold;
+    background-color: white;
+}
+h4 h5{
+    color: rgb(88, 88, 194);
+}
+button{
+    background-color: orange;
+    color:white;
+    font-weight: bold;
+    outline: none;
+    border-radius: 5px;
+}
+
+figcaption figure img{
+    width: 100%;
+    height: 100%;
+}
+   
+
+ div,article,h2,p{
+     
+     padding: 1.5em;
+ }
+   
+
+
+
+
+
+footer{
+    background-color: rgb(86, 161, 215);
+    font-family: ' Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    border-bottom: 10px solid  #027794 ;
+    margin-bottom: 1.0em;
+    padding:200px;
+    font-weight: bold;
+    margin:30px;
+    box-sizing: content-box;
+    
+
+}
+
+
+
+   
+
+
+
+
+
